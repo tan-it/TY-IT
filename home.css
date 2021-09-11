@@ -1,0 +1,232 @@
+*{
+    margin: 0px;
+    padding: opx;
+}
+
+/* css variable */
+
+
+/* navigation bar */
+#navbar{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+#navbar::before{
+  content: "";
+  background-color: rgb(92, 15, 15);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.7;
+  top: 0px
+ ;
+}
+
+/* logo and img */
+#logo{
+    margin: 20px ;
+}
+#logo img{
+    height: 34px;
+    margin: 10px 4px;
+}
+
+
+#navbar ul{
+    display: flex;
+    /* padding-left: 0px; */
+}
+
+
+#navbar ul li{
+    list-style: none;
+    font-size: 1.3rem;
+
+}
+
+#navbar ul li a{
+    display: block;
+    color: rgb(195, 227, 230);
+    font-size: 1.3rem;
+    padding: 1.3rem;
+    border-radius: 20px;
+
+    text-decoration: none;
+
+}
+
+#navbar ul li a:hover{
+   
+    color: black;
+   background-color: blanchedalmond;
+}
+
+/* secion */
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 20px;
+    justify-content: center;
+    align-items: center;
+    height: 501px;
+    position: relative;
+}
+
+
+#home::before{
+    content: "";
+    background: url(cake-4885715_1920.jpg) no-repeat center center/cover;
+    position: absolute;
+    height: 80%;
+    width: 100%;
+    z-index: -2;
+    opacity: 0.7;
+    top: 0%;
+    left: 0%;
+}
+#home h1{
+    text-align: center;
+    color: rgb(177, 19, 19);
+
+}
+
+#home p{
+    text-align: center;
+    font-size: 1.2rem;
+    color: black;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* services container */
+#services{
+    margin: 34px;
+    display: flex;
+
+}
+
+#services .box{
+    
+    border: 2px solid brown;
+    padding: 4rem;
+    margin: 1rem;
+    border-radius: 15px;
+    background-color: #f1e9e4;
+}
+
+    
+
+
+#services .box img{
+    height: 100px;
+    width: 100px;
+    display: block;
+    margin: auto;
+}
+
+/* clients section */
+#client-section{
+    height: 344px;
+    position: relative;
+    
+}
+#client-section::before{
+    position: absolute;
+    content:"";
+    background: url(our.jpg);
+   width: 100%;
+   height: 344px;
+   opacity: 0.4;
+   z-index: -2;
+   
+}
+#clients{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.client-item{
+    padding: 34px;
+
+
+}
+#client-section img{
+    height: 144px;
+    
+}
+/* contact session */
+#contact{
+    position: relative;
+
+}
+#contact::before{
+    content: "";
+    background: url(contact.jpg);
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.6;
+
+    position: absolute;
+}
+
+#contact-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   padding-bottom: 34px;
+}
+#contact-box label{
+    font-size: 1.3rem;
+    width: 100%;
+    
+ 
+}
+#contact-box FORM{
+    
+    width: 50%;
+}
+.form-group{
+    padding: 0.3rem;
+}
+
+#contact-box input,#contact-box textarea{
+width: 100%;
+padding: 0.5rem;
+border-radius: 15px;
+
+
+}
+
+/* utility class */
+.h_primary{
+    font-size: 3.8rem;
+    padding: 14px;
+
+}
+.h_secondary{
+    font-size: 1.2rem;
+    padding: 12px;
+}
+
+.btn{
+    padding: 6px 12px;
+    border: 2px solid white;
+    background-color: brown;
+    color: white;
+    margin: 17px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.center{
+    text-align: center;
+}
+
+/* services container */
+
